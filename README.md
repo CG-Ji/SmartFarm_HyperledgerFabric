@@ -21,7 +21,7 @@ curl -sSL https://bit.ly/2ysbOFE | bash -s -- 2.1.0 1.4.6 0.4.18
 ### Installtion
 - Download/Clone the repository
 - Put all files into your fabric-sample directory respectively.
-- Run command hyperledger fabric to create cheanl and install chaincode 
+- Run command hyperledger fabric to create channel and install chaincode 
 ```sh
 cd SmartFarm
 ./startFabric.sh
