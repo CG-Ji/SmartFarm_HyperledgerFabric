@@ -19,9 +19,17 @@ sudo apt-get install python
 curl -sSL https://bit.ly/2ysbOFE | bash -s -- 2.1.0 1.4.6 0.4.18
 ```
 ### Installtion
-if xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+- Download/Clone the repository
+- Put all files into your fabric-sample directory respectively.
+- Run command hyperledger fabric to create cheanl and install chaincode 
 ```sh
-$ cd dillinger
-$ npm install -d
-$ node app
+cd SmartFarm
+./startFabric.sh
+```
+- Run Cilent Api for service hyperledger fabric
+
+```
+cd SmartFarm/javascript
+npm install
+node ServerApi.js
 ```
