@@ -21,6 +21,10 @@ curl -sSL https://bit.ly/2ysbOFE | bash -s -- 2.1.0 1.4.6 0.4.18
 ### Installtion
 - Download/Clone the repository
 - Put all files into your fabric-sample directory respectively.
+- Chnage permissions on folder
+```
+chmod +x ./SmartFarm/startFabric.sh ./SmartFarm/networkDown.sh ./test-network/networkSmartFarm.sh ./test-network/scripts/deploySmartFarm.sh
+```
 - Run command hyperledger fabric to create channel and install chaincode 
 ```sh
 cd SmartFarm
